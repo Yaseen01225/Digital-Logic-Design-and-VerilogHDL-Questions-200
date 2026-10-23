@@ -1,0 +1,602 @@
+# Testbench Index — 200 Digital Logic Design Challenges
+
+- **Challenge 001 (Medium)** — `q001_implement_a_parameterized_2_to_1_multiplexer`
+  - RTL: `rtl/Medium/001_q001_implement_a_parameterized_2_to_1_multiplexer.v`
+  - Testbench: `testbench/Medium/001_tb_q001_implement_a_parameterized_2_to_1_multiplexer.v` (combinational smoke test)
+- **Challenge 002 (Medium)** — `q002_implement_a_parameterized_4_to_1_multiplexer`
+  - RTL: `rtl/Medium/002_q002_implement_a_parameterized_4_to_1_multiplexer.v`
+  - Testbench: `testbench/Medium/002_tb_q002_implement_a_parameterized_4_to_1_multiplexer.v` (combinational smoke test)
+- **Challenge 003 (Medium)** — `q003_implement_an_8_to_1_multiplexer_using_structural`
+  - RTL: `rtl/Medium/003_q003_implement_an_8_to_1_multiplexer_using_structural.v`
+  - Testbench: `testbench/Medium/003_tb_q003_implement_an_8_to_1_multiplexer_using_structural.v` (combinational smoke test)
+- **Challenge 004 (Medium)** — `q004_design_a_1_to_8_demultiplexer_with_an_enable_inp`
+  - RTL: `rtl/Medium/004_q004_design_a_1_to_8_demultiplexer_with_an_enable_inp.v`
+  - Testbench: `testbench/Medium/004_tb_q004_design_a_1_to_8_demultiplexer_with_an_enable_inp.v` (combinational smoke test)
+- **Challenge 005 (Medium)** — `q005_design_a_3_to_8_decoder_with_an_active_high_enab`
+  - RTL: `rtl/Medium/005_q005_design_a_3_to_8_decoder_with_an_active_high_enab.v`
+  - Testbench: `testbench/Medium/005_tb_q005_design_a_3_to_8_decoder_with_an_active_high_enab.v` (combinational smoke test)
+- **Challenge 006 (Medium)** — `q006_design_an_8_to_3_priority_encoder_with_a_valid_o`
+  - RTL: `rtl/Medium/006_q006_design_an_8_to_3_priority_encoder_with_a_valid_o.v`
+  - Testbench: `testbench/Medium/006_tb_q006_design_an_8_to_3_priority_encoder_with_a_valid_o.v` (clocked smoke test)
+- **Challenge 007 (Medium)** — `q007_design_a_4_bit_magnitude_comparator_with_greater`
+  - RTL: `rtl/Medium/007_q007_design_a_4_bit_magnitude_comparator_with_greater.v`
+  - Testbench: `testbench/Medium/007_tb_q007_design_a_4_bit_magnitude_comparator_with_greater.v` (combinational smoke test)
+- **Challenge 008 (Medium)** — `q008_design_a_parameterized_equality_comparator_for_t`
+  - RTL: `rtl/Medium/008_q008_design_a_parameterized_equality_comparator_for_t.v`
+  - Testbench: `testbench/Medium/008_tb_q008_design_a_parameterized_equality_comparator_for_t.v` (combinational smoke test)
+- **Challenge 009 (Medium)** — `q009_implement_an_odd_parity_generator_for_an_8_bit_i`
+  - RTL: `rtl/Medium/009_q009_implement_an_odd_parity_generator_for_an_8_bit_i.v`
+  - Testbench: `testbench/Medium/009_tb_q009_implement_an_odd_parity_generator_for_an_8_bit_i.v` (combinational smoke test)
+- **Challenge 010 (Medium)** — `q010_design_a_parity_checker_that_detects_single_bit`
+  - RTL: `rtl/Medium/010_q010_design_a_parity_checker_that_detects_single_bit.v`
+  - Testbench: `testbench/Medium/010_tb_q010_design_a_parity_checker_that_detects_single_bit.v` (clocked smoke test)
+- **Challenge 011 (Medium)** — `q011_implement_a_4_bit_binary_to_gray_code_converter`
+  - RTL: `rtl/Medium/011_q011_implement_a_4_bit_binary_to_gray_code_converter.v`
+  - Testbench: `testbench/Medium/011_tb_q011_implement_a_4_bit_binary_to_gray_code_converter.v` (combinational smoke test)
+- **Challenge 012 (Medium)** — `q012_implement_a_gray_code_to_binary_converter`
+  - RTL: `rtl/Medium/012_q012_implement_a_gray_code_to_binary_converter.v`
+  - Testbench: `testbench/Medium/012_tb_q012_implement_a_gray_code_to_binary_converter.v` (combinational smoke test)
+- **Challenge 013 (Medium)** — `q013_design_a_bcd_to_seven_segment_decoder`
+  - RTL: `rtl/Medium/013_q013_design_a_bcd_to_seven_segment_decoder.v`
+  - Testbench: `testbench/Medium/013_tb_q013_design_a_bcd_to_seven_segment_decoder.v` (clocked smoke test)
+- **Challenge 014 (Medium)** — `q014_implement_a_4_bit_one_hot_decoder_with_an_enable`
+  - RTL: `rtl/Medium/014_q014_implement_a_4_bit_one_hot_decoder_with_an_enable.v`
+  - Testbench: `testbench/Medium/014_tb_q014_implement_a_4_bit_one_hot_decoder_with_an_enable.v` (combinational smoke test)
+- **Challenge 015 (Medium)** — `q015_design_a_16_to_1_multiplexer_using_smaller_multi`
+  - RTL: `rtl/Medium/015_q015_design_a_16_to_1_multiplexer_using_smaller_multi.v`
+  - Testbench: `testbench/Medium/015_tb_q015_design_a_16_to_1_multiplexer_using_smaller_multi.v` (clocked smoke test)
+- **Challenge 016 (Medium)** — `q016_design_a_half_adder_using_primitive_boolean_equa`
+  - RTL: `rtl/Medium/016_q016_design_a_half_adder_using_primitive_boolean_equa.v`
+  - Testbench: `testbench/Medium/016_tb_q016_design_a_half_adder_using_primitive_boolean_equa.v` (combinational smoke test)
+- **Challenge 017 (Medium)** — `q017_design_a_full_adder_using_two_half_adders`
+  - RTL: `rtl/Medium/017_q017_design_a_full_adder_using_two_half_adders.v`
+  - Testbench: `testbench/Medium/017_tb_q017_design_a_full_adder_using_two_half_adders.v` (combinational smoke test)
+- **Challenge 018 (Medium)** — `q018_implement_a_parameterized_ripple_carry_adder`
+  - RTL: `rtl/Medium/018_q018_implement_a_parameterized_ripple_carry_adder.v`
+  - Testbench: `testbench/Medium/018_tb_q018_implement_a_parameterized_ripple_carry_adder.v` (combinational smoke test)
+- **Challenge 019 (Medium)** — `q019_implement_a_4_bit_carry_lookahead_adder`
+  - RTL: `rtl/Medium/019_q019_implement_a_4_bit_carry_lookahead_adder.v`
+  - Testbench: `testbench/Medium/019_tb_q019_implement_a_4_bit_carry_lookahead_adder.v` (combinational smoke test)
+- **Challenge 020 (Medium)** — `q020_design_a_4_bit_binary_subtractor_with_borrow_out`
+  - RTL: `rtl/Medium/020_q020_design_a_4_bit_binary_subtractor_with_borrow_out.v`
+  - Testbench: `testbench/Medium/020_tb_q020_design_a_4_bit_binary_subtractor_with_borrow_out.v` (combinational smoke test)
+- **Challenge 021 (Medium)** — `q021_design_a_parameterized_adder_subtractor_controll`
+  - RTL: `rtl/Medium/021_q021_design_a_parameterized_adder_subtractor_controll.v`
+  - Testbench: `testbench/Medium/021_tb_q021_design_a_parameterized_adder_subtractor_controll.v` (combinational smoke test)
+- **Challenge 022 (Medium)** — `q022_implement_a_bcd_digit_adder_with_decimal_carry_c`
+  - RTL: `rtl/Medium/022_q022_implement_a_bcd_digit_adder_with_decimal_carry_c.v`
+  - Testbench: `testbench/Medium/022_tb_q022_implement_a_bcd_digit_adder_with_decimal_carry_c.v` (combinational smoke test)
+- **Challenge 023 (Medium)** — `q023_design_a_4_bit_incrementer_with_carry_out`
+  - RTL: `rtl/Medium/023_q023_design_a_4_bit_incrementer_with_carry_out.v`
+  - Testbench: `testbench/Medium/023_tb_q023_design_a_4_bit_incrementer_with_carry_out.v` (combinational smoke test)
+- **Challenge 024 (Medium)** — `q024_implement_a_4_bit_decrementer_with_borrow_out`
+  - RTL: `rtl/Medium/024_q024_implement_a_4_bit_decrementer_with_borrow_out.v`
+  - Testbench: `testbench/Medium/024_tb_q024_implement_a_4_bit_decrementer_with_borrow_out.v` (combinational smoke test)
+- **Challenge 025 (Medium)** — `q025_design_a_4_bit_population_count_circuit_that_cou`
+  - RTL: `rtl/Medium/025_q025_design_a_4_bit_population_count_circuit_that_cou.v`
+  - Testbench: `testbench/Medium/025_tb_q025_design_a_4_bit_population_count_circuit_that_cou.v` (combinational smoke test)
+- **Challenge 026 (Medium)** — `q026_design_an_8_bit_parallel_in_parallel_out_registe`
+  - RTL: `rtl/Medium/026_q026_design_an_8_bit_parallel_in_parallel_out_registe.v`
+  - Testbench: `testbench/Medium/026_tb_q026_design_an_8_bit_parallel_in_parallel_out_registe.v` (clocked smoke test)
+- **Challenge 027 (Medium)** — `q027_design_an_8_bit_serial_in_serial_out_shift_regis`
+  - RTL: `rtl/Medium/027_q027_design_an_8_bit_serial_in_serial_out_shift_regis.v`
+  - Testbench: `testbench/Medium/027_tb_q027_design_an_8_bit_serial_in_serial_out_shift_regis.v` (clocked smoke test)
+- **Challenge 028 (Medium)** — `q028_design_a_serial_in_parallel_out_shift_register`
+  - RTL: `rtl/Medium/028_q028_design_a_serial_in_parallel_out_shift_register.v`
+  - Testbench: `testbench/Medium/028_tb_q028_design_a_serial_in_parallel_out_shift_register.v` (clocked smoke test)
+- **Challenge 029 (Medium)** — `q029_design_a_parallel_in_serial_out_shift_register_w`
+  - RTL: `rtl/Medium/029_q029_design_a_parallel_in_serial_out_shift_register_w.v`
+  - Testbench: `testbench/Medium/029_tb_q029_design_a_parallel_in_serial_out_shift_register_w.v` (clocked smoke test)
+- **Challenge 030 (Medium)** — `q030_implement_a_parameterized_universal_shift_regist`
+  - RTL: `rtl/Medium/030_q030_implement_a_parameterized_universal_shift_regist.v`
+  - Testbench: `testbench/Medium/030_tb_q030_implement_a_parameterized_universal_shift_regist.v` (clocked smoke test)
+- **Challenge 031 (Medium)** — `q031_design_a_bidirectional_shift_register_with_selec`
+  - RTL: `rtl/Medium/031_q031_design_a_bidirectional_shift_register_with_selec.v`
+  - Testbench: `testbench/Medium/031_tb_q031_design_a_bidirectional_shift_register_with_selec.v` (clocked smoke test)
+- **Challenge 032 (Medium)** — `q032_implement_an_8_bit_circular_left_rotate_register`
+  - RTL: `rtl/Medium/032_q032_implement_an_8_bit_circular_left_rotate_register.v`
+  - Testbench: `testbench/Medium/032_tb_q032_implement_an_8_bit_circular_left_rotate_register.v` (clocked smoke test)
+- **Challenge 033 (Medium)** — `q033_implement_an_8_bit_circular_right_rotate_registe`
+  - RTL: `rtl/Medium/033_q033_implement_an_8_bit_circular_right_rotate_registe.v`
+  - Testbench: `testbench/Medium/033_tb_q033_implement_an_8_bit_circular_right_rotate_registe.v` (clocked smoke test)
+- **Challenge 034 (Medium)** — `q034_design_a_register_with_synchronous_active_high_r`
+  - RTL: `rtl/Medium/034_q034_design_a_register_with_synchronous_active_high_r.v`
+  - Testbench: `testbench/Medium/034_tb_q034_design_a_register_with_synchronous_active_high_r.v` (clocked smoke test)
+- **Challenge 035 (Medium)** — `q035_design_a_register_with_asynchronous_active_low_r`
+  - RTL: `rtl/Medium/035_q035_design_a_register_with_asynchronous_active_low_r.v`
+  - Testbench: `testbench/Medium/035_tb_q035_design_a_register_with_asynchronous_active_low_r.v` (clocked smoke test)
+- **Challenge 036 (Medium)** — `q036_implement_a_4_bit_binary_up_counter`
+  - RTL: `rtl/Medium/036_q036_implement_a_4_bit_binary_up_counter.v`
+  - Testbench: `testbench/Medium/036_tb_q036_implement_a_4_bit_binary_up_counter.v` (clocked smoke test)
+- **Challenge 037 (Medium)** — `q037_implement_a_4_bit_binary_down_counter`
+  - RTL: `rtl/Medium/037_q037_implement_a_4_bit_binary_down_counter.v`
+  - Testbench: `testbench/Medium/037_tb_q037_implement_a_4_bit_binary_down_counter.v` (clocked smoke test)
+- **Challenge 038 (Medium)** — `q038_design_a_parameterized_up_down_counter`
+  - RTL: `rtl/Medium/038_q038_design_a_parameterized_up_down_counter.v`
+  - Testbench: `testbench/Medium/038_tb_q038_design_a_parameterized_up_down_counter.v` (clocked smoke test)
+- **Challenge 039 (Medium)** — `q039_design_a_modulo_10_decade_counter`
+  - RTL: `rtl/Medium/039_q039_design_a_modulo_10_decade_counter.v`
+  - Testbench: `testbench/Medium/039_tb_q039_design_a_modulo_10_decade_counter.v` (clocked smoke test)
+- **Challenge 040 (Medium)** — `q040_implement_a_modulo_n_counter_using_a_parameter`
+  - RTL: `rtl/Medium/040_q040_implement_a_modulo_n_counter_using_a_parameter.v`
+  - Testbench: `testbench/Medium/040_tb_q040_implement_a_modulo_n_counter_using_a_parameter.v` (clocked smoke test)
+- **Challenge 041 (Medium)** — `q041_design_a_4_bit_ring_counter`
+  - RTL: `rtl/Medium/041_q041_design_a_4_bit_ring_counter.v`
+  - Testbench: `testbench/Medium/041_tb_q041_design_a_4_bit_ring_counter.v` (clocked smoke test)
+- **Challenge 042 (Medium)** — `q042_design_a_4_bit_johnson_counter`
+  - RTL: `rtl/Medium/042_q042_design_a_4_bit_johnson_counter.v`
+  - Testbench: `testbench/Medium/042_tb_q042_design_a_4_bit_johnson_counter.v` (clocked smoke test)
+- **Challenge 043 (Medium)** — `q043_implement_a_counter_with_programmable_terminal_c`
+  - RTL: `rtl/Medium/043_q043_implement_a_counter_with_programmable_terminal_c.v`
+  - Testbench: `testbench/Medium/043_tb_q043_implement_a_counter_with_programmable_terminal_c.v` (clocked smoke test)
+- **Challenge 044 (Medium)** — `q044_design_a_counter_with_synchronous_load_and_enabl`
+  - RTL: `rtl/Medium/044_q044_design_a_counter_with_synchronous_load_and_enabl.v`
+  - Testbench: `testbench/Medium/044_tb_q044_design_a_counter_with_synchronous_load_and_enabl.v` (clocked smoke test)
+- **Challenge 045 (Medium)** — `q045_implement_a_clock_enable_pulse_generator_that_pr`
+  - RTL: `rtl/Medium/045_q045_implement_a_clock_enable_pulse_generator_that_pr.v`
+  - Testbench: `testbench/Medium/045_tb_q045_implement_a_clock_enable_pulse_generator_that_pr.v` (clocked smoke test)
+- **Challenge 046 (Medium)** — `q046_design_a_sequence_detector_for_the_bit_pattern_1`
+  - RTL: `rtl/Medium/046_q046_design_a_sequence_detector_for_the_bit_pattern_1.v`
+  - Testbench: `testbench/Medium/046_tb_q046_design_a_sequence_detector_for_the_bit_pattern_1.v` (clocked smoke test)
+- **Challenge 047 (Medium)** — `q047_implement_an_overlapping_sequence_detector_for_1`
+  - RTL: `rtl/Medium/047_q047_implement_an_overlapping_sequence_detector_for_1.v`
+  - Testbench: `testbench/Medium/047_tb_q047_implement_an_overlapping_sequence_detector_for_1.v` (clocked smoke test)
+- **Challenge 048 (Medium)** — `q048_implement_a_non_overlapping_sequence_detector_fo`
+  - RTL: `rtl/Medium/048_q048_implement_a_non_overlapping_sequence_detector_fo.v`
+  - Testbench: `testbench/Medium/048_tb_q048_implement_a_non_overlapping_sequence_detector_fo.v` (clocked smoke test)
+- **Challenge 049 (Medium)** — `q049_design_a_two_road_traffic_light_controller_using`
+  - RTL: `rtl/Medium/049_q049_design_a_two_road_traffic_light_controller_using.v`
+  - Testbench: `testbench/Medium/049_tb_q049_design_a_two_road_traffic_light_controller_using.v` (clocked smoke test)
+- **Challenge 050 (Medium)** — `q050_design_a_simple_digital_stopwatch_counter_with_s`
+  - RTL: `rtl/Medium/050_q050_design_a_simple_digital_stopwatch_counter_with_s.v`
+  - Testbench: `testbench/Medium/050_tb_q050_design_a_simple_digital_stopwatch_counter_with_s.v` (clocked smoke test)
+- **Challenge 051 (Hard)** — `q051_implement_a_parameterized_carry_select_adder`
+  - RTL: `rtl/Hard/051_q051_implement_a_parameterized_carry_select_adder.v`
+  - Testbench: `testbench/Hard/051_tb_q051_implement_a_parameterized_carry_select_adder.v` (combinational smoke test)
+- **Challenge 052 (Hard)** — `q052_design_a_16_bit_carry_lookahead_adder_using_hier`
+  - RTL: `rtl/Hard/052_q052_design_a_16_bit_carry_lookahead_adder_using_hier.v`
+  - Testbench: `testbench/Hard/052_tb_q052_design_a_16_bit_carry_lookahead_adder_using_hier.v` (combinational smoke test)
+- **Challenge 053 (Hard)** — `q053_implement_a_carry_skip_adder_for_a_16_bit_operan`
+  - RTL: `rtl/Hard/053_q053_implement_a_carry_skip_adder_for_a_16_bit_operan.v`
+  - Testbench: `testbench/Hard/053_tb_q053_implement_a_carry_skip_adder_for_a_16_bit_operan.v` (combinational smoke test)
+- **Challenge 054 (Hard)** — `q054_design_a_16_bit_signed_two_s_complement_adder_wi`
+  - RTL: `rtl/Hard/054_q054_design_a_16_bit_signed_two_s_complement_adder_wi.v`
+  - Testbench: `testbench/Hard/054_tb_q054_design_a_16_bit_signed_two_s_complement_adder_wi.v` (combinational smoke test)
+- **Challenge 055 (Hard)** — `q055_implement_a_signed_unsigned_comparator_selected`
+  - RTL: `rtl/Hard/055_q055_implement_a_signed_unsigned_comparator_selected.v`
+  - Testbench: `testbench/Hard/055_tb_q055_implement_a_signed_unsigned_comparator_selected.v` (combinational smoke test)
+- **Challenge 056 (Hard)** — `q056_design_a_saturating_8_bit_signed_adder`
+  - RTL: `rtl/Hard/056_q056_design_a_saturating_8_bit_signed_adder.v`
+  - Testbench: `testbench/Hard/056_tb_q056_design_a_saturating_8_bit_signed_adder.v` (combinational smoke test)
+- **Challenge 057 (Hard)** — `q057_implement_an_8_bit_arithmetic_logic_unit_support`
+  - RTL: `rtl/Hard/057_q057_implement_an_8_bit_arithmetic_logic_unit_support.v`
+  - Testbench: `testbench/Hard/057_tb_q057_implement_an_8_bit_arithmetic_logic_unit_support.v` (clocked smoke test)
+- **Challenge 058 (Hard)** — `q058_design_an_alu_with_zero_carry_negative_and_overf`
+  - RTL: `rtl/Hard/058_q058_design_an_alu_with_zero_carry_negative_and_overf.v`
+  - Testbench: `testbench/Hard/058_tb_q058_design_an_alu_with_zero_carry_negative_and_overf.v` (clocked smoke test)
+- **Challenge 059 (Hard)** — `q059_implement_a_barrel_shifter_supporting_logical_le`
+  - RTL: `rtl/Hard/059_q059_implement_a_barrel_shifter_supporting_logical_le.v`
+  - Testbench: `testbench/Hard/059_tb_q059_implement_a_barrel_shifter_supporting_logical_le.v` (clocked smoke test)
+- **Challenge 060 (Hard)** — `q060_design_a_leading_zero_counter_for_a_16_bit_input`
+  - RTL: `rtl/Hard/060_q060_design_a_leading_zero_counter_for_a_16_bit_input.v`
+  - Testbench: `testbench/Hard/060_tb_q060_design_a_leading_zero_counter_for_a_16_bit_input.v` (clocked smoke test)
+- **Challenge 061 (Hard)** — `q061_implement_a_16_bit_priority_encoder_with_a_confi`
+  - RTL: `rtl/Hard/061_q061_implement_a_16_bit_priority_encoder_with_a_confi.v`
+  - Testbench: `testbench/Hard/061_tb_q061_implement_a_16_bit_priority_encoder_with_a_confi.v` (clocked smoke test)
+- **Challenge 062 (Hard)** — `q062_design_a_16_bit_population_counter_using_a_balan`
+  - RTL: `rtl/Hard/062_q062_design_a_16_bit_population_counter_using_a_balan.v`
+  - Testbench: `testbench/Hard/062_tb_q062_design_a_16_bit_population_counter_using_a_balan.v` (combinational smoke test)
+- **Challenge 063 (Hard)** — `q063_implement_a_16_bit_one_s_complement_and_two_s_co`
+  - RTL: `rtl/Hard/063_q063_implement_a_16_bit_one_s_complement_and_two_s_co.v`
+  - Testbench: `testbench/Hard/063_tb_q063_implement_a_16_bit_one_s_complement_and_two_s_co.v` (clocked smoke test)
+- **Challenge 064 (Hard)** — `q064_design_a_parameterized_absolute_value_circuit_fo`
+  - RTL: `rtl/Hard/064_q064_design_a_parameterized_absolute_value_circuit_fo.v`
+  - Testbench: `testbench/Hard/064_tb_q064_design_a_parameterized_absolute_value_circuit_fo.v` (clocked smoke test)
+- **Challenge 065 (Hard)** — `q065_implement_a_fixed_point_accumulator_with_configu`
+  - RTL: `rtl/Hard/065_q065_implement_a_fixed_point_accumulator_with_configu.v`
+  - Testbench: `testbench/Hard/065_tb_q065_implement_a_fixed_point_accumulator_with_configu.v` (clocked smoke test)
+- **Challenge 066 (Hard)** — `q066_design_a_moore_fsm_that_detects_1001`
+  - RTL: `rtl/Hard/066_q066_design_a_moore_fsm_that_detects_1001.v`
+  - Testbench: `testbench/Hard/066_tb_q066_design_a_moore_fsm_that_detects_1001.v` (clocked smoke test)
+- **Challenge 067 (Hard)** — `q067_design_a_mealy_fsm_that_detects_1110_with_overla`
+  - RTL: `rtl/Hard/067_q067_design_a_mealy_fsm_that_detects_1110_with_overla.v`
+  - Testbench: `testbench/Hard/067_tb_q067_design_a_mealy_fsm_that_detects_1110_with_overla.v` (clocked smoke test)
+- **Challenge 068 (Hard)** — `q068_implement_an_fsm_with_separate_combinational_nex`
+  - RTL: `rtl/Hard/068_q068_implement_an_fsm_with_separate_combinational_nex.v`
+  - Testbench: `testbench/Hard/068_tb_q068_implement_an_fsm_with_separate_combinational_nex.v` (clocked smoke test)
+- **Challenge 069 (Hard)** — `q069_design_a_vending_machine_that_accepts_multiple_c`
+  - RTL: `rtl/Hard/069_q069_design_a_vending_machine_that_accepts_multiple_c.v`
+  - Testbench: `testbench/Hard/069_tb_q069_design_a_vending_machine_that_accepts_multiple_c.v` (clocked smoke test)
+- **Challenge 070 (Hard)** — `q070_implement_a_digital_combination_lock_with_retry`
+  - RTL: `rtl/Hard/070_q070_implement_a_digital_combination_lock_with_retry.v`
+  - Testbench: `testbench/Hard/070_tb_q070_implement_a_digital_combination_lock_with_retry.v` (clocked smoke test)
+- **Challenge 071 (Hard)** — `q071_design_a_programmable_washing_machine_controller`
+  - RTL: `rtl/Hard/071_q071_design_a_programmable_washing_machine_controller.v`
+  - Testbench: `testbench/Hard/071_tb_q071_design_a_programmable_washing_machine_controller.v` (clocked smoke test)
+- **Challenge 072 (Hard)** — `q072_implement_a_uart_transmitter_fsm_with_configurab`
+  - RTL: `rtl/Hard/072_q072_implement_a_uart_transmitter_fsm_with_configurab.v`
+  - Testbench: `testbench/Hard/072_tb_q072_implement_a_uart_transmitter_fsm_with_configurab.v` (clocked smoke test)
+- **Challenge 073 (Hard)** — `q073_design_a_uart_receiver_fsm_with_start_bit_valida`
+  - RTL: `rtl/Hard/073_q073_design_a_uart_receiver_fsm_with_start_bit_valida.v`
+  - Testbench: `testbench/Hard/073_tb_q073_design_a_uart_receiver_fsm_with_start_bit_valida.v` (clocked smoke test)
+- **Challenge 074 (Hard)** — `q074_implement_a_serial_command_decoder_with_a_start`
+  - RTL: `rtl/Hard/074_q074_implement_a_serial_command_decoder_with_a_start.v`
+  - Testbench: `testbench/Hard/074_tb_q074_implement_a_serial_command_decoder_with_a_start.v` (combinational smoke test)
+- **Challenge 075 (Hard)** — `q075_design_an_spi_master_controller_supporting_confi`
+  - RTL: `rtl/Hard/075_q075_design_an_spi_master_controller_supporting_confi.v`
+  - Testbench: `testbench/Hard/075_tb_q075_design_an_spi_master_controller_supporting_confi.v` (clocked smoke test)
+- **Challenge 076 (Hard)** — `q076_implement_an_i2c_style_open_drain_controller_int`
+  - RTL: `rtl/Hard/076_q076_implement_an_i2c_style_open_drain_controller_int.v`
+  - Testbench: `testbench/Hard/076_tb_q076_implement_an_i2c_style_open_drain_controller_int.v` (clocked smoke test)
+- **Challenge 077 (Hard)** — `q077_design_a_watchdog_timer_with_timeout_and_service`
+  - RTL: `rtl/Hard/077_q077_design_a_watchdog_timer_with_timeout_and_service.v`
+  - Testbench: `testbench/Hard/077_tb_q077_design_a_watchdog_timer_with_timeout_and_service.v` (clocked smoke test)
+- **Challenge 078 (Hard)** — `q078_implement_a_debouncer_for_a_mechanical_push_butt`
+  - RTL: `rtl/Hard/078_q078_implement_a_debouncer_for_a_mechanical_push_butt.v`
+  - Testbench: `testbench/Hard/078_tb_q078_implement_a_debouncer_for_a_mechanical_push_butt.v` (clocked smoke test)
+- **Challenge 079 (Hard)** — `q079_design_a_pulse_stretcher_for_a_short_input_pulse`
+  - RTL: `rtl/Hard/079_q079_design_a_pulse_stretcher_for_a_short_input_pulse.v`
+  - Testbench: `testbench/Hard/079_tb_q079_design_a_pulse_stretcher_for_a_short_input_pulse.v` (clocked smoke test)
+- **Challenge 080 (Hard)** — `q080_implement_a_single_bit_event_synchronizer_with_a`
+  - RTL: `rtl/Hard/080_q080_implement_a_single_bit_event_synchronizer_with_a.v`
+  - Testbench: `testbench/Hard/080_tb_q080_implement_a_single_bit_event_synchronizer_with_a.v` (clocked smoke test)
+- **Challenge 081 (Hard)** — `q081_design_a_synchronous_single_port_ram_with_parame`
+  - RTL: `rtl/Hard/081_q081_design_a_synchronous_single_port_ram_with_parame.v`
+  - Testbench: `testbench/Hard/081_tb_q081_design_a_synchronous_single_port_ram_with_parame.v` (clocked smoke test)
+- **Challenge 082 (Hard)** — `q082_implement_a_synchronous_rom_using_a_case_stateme`
+  - RTL: `rtl/Hard/082_q082_implement_a_synchronous_rom_using_a_case_stateme.v`
+  - Testbench: `testbench/Hard/082_tb_q082_implement_a_synchronous_rom_using_a_case_stateme.v` (clocked smoke test)
+- **Challenge 083 (Hard)** — `q083_design_a_register_file_with_two_read_ports_and_o`
+  - RTL: `rtl/Hard/083_q083_design_a_register_file_with_two_read_ports_and_o.v`
+  - Testbench: `testbench/Hard/083_tb_q083_design_a_register_file_with_two_read_ports_and_o.v` (clocked smoke test)
+- **Challenge 084 (Hard)** — `q084_implement_a_synchronous_fifo_with_full_empty_and`
+  - RTL: `rtl/Hard/084_q084_implement_a_synchronous_fifo_with_full_empty_and.v`
+  - Testbench: `testbench/Hard/084_tb_q084_implement_a_synchronous_fifo_with_full_empty_and.v` (clocked smoke test)
+- **Challenge 085 (Hard)** — `q085_design_a_fifo_with_programmable_almost_full_and`
+  - RTL: `rtl/Hard/085_q085_design_a_fifo_with_programmable_almost_full_and.v`
+  - Testbench: `testbench/Hard/085_tb_q085_design_a_fifo_with_programmable_almost_full_and.v` (clocked smoke test)
+- **Challenge 086 (Hard)** — `q086_implement_a_circular_buffer_with_wraparound_poin`
+  - RTL: `rtl/Hard/086_q086_implement_a_circular_buffer_with_wraparound_poin.v`
+  - Testbench: `testbench/Hard/086_tb_q086_implement_a_circular_buffer_with_wraparound_poin.v` (clocked smoke test)
+- **Challenge 087 (Hard)** — `q087_design_a_request_acknowledge_handshake_controlle`
+  - RTL: `rtl/Hard/087_q087_design_a_request_acknowledge_handshake_controlle.v`
+  - Testbench: `testbench/Hard/087_tb_q087_design_a_request_acknowledge_handshake_controlle.v` (clocked smoke test)
+- **Challenge 088 (Hard)** — `q088_implement_a_ready_valid_interface_register_with`
+  - RTL: `rtl/Hard/088_q088_implement_a_ready_valid_interface_register_with.v`
+  - Testbench: `testbench/Hard/088_tb_q088_implement_a_ready_valid_interface_register_with.v` (clocked smoke test)
+- **Challenge 089 (Hard)** — `q089_design_a_round_robin_arbiter_for_four_requesters`
+  - RTL: `rtl/Hard/089_q089_design_a_round_robin_arbiter_for_four_requesters.v`
+  - Testbench: `testbench/Hard/089_tb_q089_design_a_round_robin_arbiter_for_four_requesters.v` (clocked smoke test)
+- **Challenge 090 (Hard)** — `q090_implement_a_fixed_priority_arbiter_with_a_one_ho`
+  - RTL: `rtl/Hard/090_q090_implement_a_fixed_priority_arbiter_with_a_one_ho.v`
+  - Testbench: `testbench/Hard/090_tb_q090_implement_a_fixed_priority_arbiter_with_a_one_ho.v` (clocked smoke test)
+- **Challenge 091 (Hard)** — `q091_design_a_programmable_clock_enable_divider_for_a`
+  - RTL: `rtl/Hard/091_q091_design_a_programmable_clock_enable_divider_for_a.v`
+  - Testbench: `testbench/Hard/091_tb_q091_design_a_programmable_clock_enable_divider_for_a.v` (clocked smoke test)
+- **Challenge 092 (Hard)** — `q092_implement_a_pulse_generator_that_creates_exactly`
+  - RTL: `rtl/Hard/092_q092_implement_a_pulse_generator_that_creates_exactly.v`
+  - Testbench: `testbench/Hard/092_tb_q092_implement_a_pulse_generator_that_creates_exactly.v` (clocked smoke test)
+- **Challenge 093 (Hard)** — `q093_design_a_synchronous_reset_controller_with_a_con`
+  - RTL: `rtl/Hard/093_q093_design_a_synchronous_reset_controller_with_a_con.v`
+  - Testbench: `testbench/Hard/093_tb_q093_design_a_synchronous_reset_controller_with_a_con.v` (clocked smoke test)
+- **Challenge 094 (Hard)** — `q094_implement_a_parameterized_pipeline_register_with`
+  - RTL: `rtl/Hard/094_q094_implement_a_parameterized_pipeline_register_with.v`
+  - Testbench: `testbench/Hard/094_tb_q094_implement_a_parameterized_pipeline_register_with.v` (clocked smoke test)
+- **Challenge 095 (Hard)** — `q095_design_a_two_stage_pipelined_adder`
+  - RTL: `rtl/Hard/095_q095_design_a_two_stage_pipelined_adder.v`
+  - Testbench: `testbench/Hard/095_tb_q095_design_a_two_stage_pipelined_adder.v` (combinational smoke test)
+- **Challenge 096 (Hard)** — `q096_implement_a_three_stage_pipeline_for_an_8_bit_mu`
+  - RTL: `rtl/Hard/096_q096_implement_a_three_stage_pipeline_for_an_8_bit_mu.v`
+  - Testbench: `testbench/Hard/096_tb_q096_implement_a_three_stage_pipeline_for_an_8_bit_mu.v` (clocked smoke test)
+- **Challenge 097 (Hard)** — `q097_design_a_synchronous_data_width_converter_from_8`
+  - RTL: `rtl/Hard/097_q097_design_a_synchronous_data_width_converter_from_8.v`
+  - Testbench: `testbench/Hard/097_tb_q097_design_a_synchronous_data_width_converter_from_8.v` (clocked smoke test)
+- **Challenge 098 (Hard)** — `q098_implement_a_32_bit_to_8_bit_serializer_with_vali`
+  - RTL: `rtl/Hard/098_q098_implement_a_32_bit_to_8_bit_serializer_with_vali.v`
+  - Testbench: `testbench/Hard/098_tb_q098_implement_a_32_bit_to_8_bit_serializer_with_vali.v` (clocked smoke test)
+- **Challenge 099 (Hard)** — `q099_design_a_packet_length_counter_with_start_data_v`
+  - RTL: `rtl/Hard/099_q099_design_a_packet_length_counter_with_start_data_v.v`
+  - Testbench: `testbench/Hard/099_tb_q099_design_a_packet_length_counter_with_start_data_v.v` (clocked smoke test)
+- **Challenge 100 (Hard)** — `q100_implement_a_fault_monitor_that_latches_error_fla`
+  - RTL: `rtl/Hard/100_q100_implement_a_fault_monitor_that_latches_error_fla.v`
+  - Testbench: `testbench/Hard/100_tb_q100_implement_a_fault_monitor_that_latches_error_fla.v` (clocked smoke test)
+- **Challenge 101 (Very_Hard)** — `q101_implement_a_parameterized_carry_save_adder_for_t`
+  - RTL: `rtl/Very_Hard/101_q101_implement_a_parameterized_carry_save_adder_for_t.v`
+  - Testbench: `testbench/Very_Hard/101_tb_q101_implement_a_parameterized_carry_save_adder_for_t.v` (combinational smoke test)
+- **Challenge 102 (Very_Hard)** — `q102_design_a_32_bit_carry_save_reduction_tree_for_mu`
+  - RTL: `rtl/Very_Hard/102_q102_design_a_32_bit_carry_save_reduction_tree_for_mu.v`
+  - Testbench: `testbench/Very_Hard/102_tb_q102_design_a_32_bit_carry_save_reduction_tree_for_mu.v` (clocked smoke test)
+- **Challenge 103 (Very_Hard)** — `q103_implement_a_16_bit_signed_booth_multiplier_using`
+  - RTL: `rtl/Very_Hard/103_q103_implement_a_16_bit_signed_booth_multiplier_using.v`
+  - Testbench: `testbench/Very_Hard/103_tb_q103_implement_a_16_bit_signed_booth_multiplier_using.v` (clocked smoke test)
+- **Challenge 104 (Very_Hard)** — `q104_design_a_16_bit_unsigned_array_multiplier_using`
+  - RTL: `rtl/Very_Hard/104_q104_design_a_16_bit_unsigned_array_multiplier_using.v`
+  - Testbench: `testbench/Very_Hard/104_tb_q104_design_a_16_bit_unsigned_array_multiplier_using.v` (clocked smoke test)
+- **Challenge 105 (Very_Hard)** — `q105_implement_a_parameterized_shift_and_add_sequenti`
+  - RTL: `rtl/Very_Hard/105_q105_implement_a_parameterized_shift_and_add_sequenti.v`
+  - Testbench: `testbench/Very_Hard/105_tb_q105_implement_a_parameterized_shift_and_add_sequenti.v` (clocked smoke test)
+- **Challenge 106 (Very_Hard)** — `q106_design_an_iterative_restoring_unsigned_divider`
+  - RTL: `rtl/Very_Hard/106_q106_design_an_iterative_restoring_unsigned_divider.v`
+  - Testbench: `testbench/Very_Hard/106_tb_q106_design_an_iterative_restoring_unsigned_divider.v` (clocked smoke test)
+- **Challenge 107 (Very_Hard)** — `q107_implement_a_non_restoring_signed_divider`
+  - RTL: `rtl/Very_Hard/107_q107_implement_a_non_restoring_signed_divider.v`
+  - Testbench: `testbench/Very_Hard/107_tb_q107_implement_a_non_restoring_signed_divider.v` (clocked smoke test)
+- **Challenge 108 (Very_Hard)** — `q108_design_a_32_bit_multiply_accumulate_unit_with_co`
+  - RTL: `rtl/Very_Hard/108_q108_design_a_32_bit_multiply_accumulate_unit_with_co.v`
+  - Testbench: `testbench/Very_Hard/108_tb_q108_design_a_32_bit_multiply_accumulate_unit_with_co.v` (clocked smoke test)
+- **Challenge 109 (Very_Hard)** — `q109_implement_a_fixed_point_multiply_unit_with_round`
+  - RTL: `rtl/Very_Hard/109_q109_implement_a_fixed_point_multiply_unit_with_round.v`
+  - Testbench: `testbench/Very_Hard/109_tb_q109_implement_a_fixed_point_multiply_unit_with_round.v` (clocked smoke test)
+- **Challenge 110 (Very_Hard)** — `q110_design_a_fixed_point_divider_with_configurable_f`
+  - RTL: `rtl/Very_Hard/110_q110_design_a_fixed_point_divider_with_configurable_f.v`
+  - Testbench: `testbench/Very_Hard/110_tb_q110_design_a_fixed_point_divider_with_configurable_f.v` (clocked smoke test)
+- **Challenge 111 (Very_Hard)** — `q111_implement_a_parameterized_arithmetic_right_shift`
+  - RTL: `rtl/Very_Hard/111_q111_implement_a_parameterized_arithmetic_right_shift.v`
+  - Testbench: `testbench/Very_Hard/111_tb_q111_implement_a_parameterized_arithmetic_right_shift.v` (clocked smoke test)
+- **Challenge 112 (Very_Hard)** — `q112_design_a_leading_one_detector_and_priority_encod`
+  - RTL: `rtl/Very_Hard/112_q112_design_a_leading_one_detector_and_priority_encod.v`
+  - Testbench: `testbench/Very_Hard/112_tb_q112_design_a_leading_one_detector_and_priority_encod.v` (clocked smoke test)
+- **Challenge 113 (Very_Hard)** — `q113_implement_a_32_bit_barrel_shifter_with_rotate_lo`
+  - RTL: `rtl/Very_Hard/113_q113_implement_a_32_bit_barrel_shifter_with_rotate_lo.v`
+  - Testbench: `testbench/Very_Hard/113_tb_q113_implement_a_32_bit_barrel_shifter_with_rotate_lo.v` (clocked smoke test)
+- **Challenge 114 (Very_Hard)** — `q114_design_a_32_bit_alu_with_parameterized_operation`
+  - RTL: `rtl/Very_Hard/114_q114_design_a_32_bit_alu_with_parameterized_operation.v`
+  - Testbench: `testbench/Very_Hard/114_tb_q114_design_a_32_bit_alu_with_parameterized_operation.v` (clocked smoke test)
+- **Challenge 115 (Very_Hard)** — `q115_implement_a_configurable_width_signed_saturating`
+  - RTL: `rtl/Very_Hard/115_q115_implement_a_configurable_width_signed_saturating.v`
+  - Testbench: `testbench/Very_Hard/115_tb_q115_implement_a_configurable_width_signed_saturating.v` (clocked smoke test)
+- **Challenge 116 (Very_Hard)** — `q116_design_a_uart_controller_with_configurable_data`
+  - RTL: `rtl/Very_Hard/116_q116_design_a_uart_controller_with_configurable_data.v`
+  - Testbench: `testbench/Very_Hard/116_tb_q116_design_a_uart_controller_with_configurable_data.v` (clocked smoke test)
+- **Challenge 117 (Very_Hard)** — `q117_implement_an_spi_master_with_programmable_word_l`
+  - RTL: `rtl/Very_Hard/117_q117_implement_an_spi_master_with_programmable_word_l.v`
+  - Testbench: `testbench/Very_Hard/117_tb_q117_implement_an_spi_master_with_programmable_word_l.v` (clocked smoke test)
+- **Challenge 118 (Very_Hard)** — `q118_design_an_spi_slave_with_input_sampling_and_outp`
+  - RTL: `rtl/Very_Hard/118_q118_design_an_spi_slave_with_input_sampling_and_outp.v`
+  - Testbench: `testbench/Very_Hard/118_tb_q118_design_an_spi_slave_with_input_sampling_and_outp.v` (clocked smoke test)
+- **Challenge 119 (Very_Hard)** — `q119_implement_an_i2c_style_byte_transmitter_with_ack`
+  - RTL: `rtl/Very_Hard/119_q119_implement_an_i2c_style_byte_transmitter_with_ack.v`
+  - Testbench: `testbench/Very_Hard/119_tb_q119_implement_an_i2c_style_byte_transmitter_with_ack.v` (clocked smoke test)
+- **Challenge 120 (Very_Hard)** — `q120_design_a_memory_mapped_peripheral_controller_wit`
+  - RTL: `rtl/Very_Hard/120_q120_design_a_memory_mapped_peripheral_controller_wit.v`
+  - Testbench: `testbench/Very_Hard/120_tb_q120_design_a_memory_mapped_peripheral_controller_wit.v` (clocked smoke test)
+- **Challenge 121 (Very_Hard)** — `q121_implement_a_bus_transaction_controller_with_requ`
+  - RTL: `rtl/Very_Hard/121_q121_implement_a_bus_transaction_controller_with_requ.v`
+  - Testbench: `testbench/Very_Hard/121_tb_q121_implement_a_bus_transaction_controller_with_requ.v` (clocked smoke test)
+- **Challenge 122 (Very_Hard)** — `q122_design_a_packet_parser_that_extracts_header_fiel`
+  - RTL: `rtl/Very_Hard/122_q122_design_a_packet_parser_that_extracts_header_fiel.v`
+  - Testbench: `testbench/Very_Hard/122_tb_q122_design_a_packet_parser_that_extracts_header_fiel.v` (clocked smoke test)
+- **Challenge 123 (Very_Hard)** — `q123_implement_a_command_processor_with_opcode_decodi`
+  - RTL: `rtl/Very_Hard/123_q123_implement_a_command_processor_with_opcode_decodi.v`
+  - Testbench: `testbench/Very_Hard/123_tb_q123_implement_a_command_processor_with_opcode_decodi.v` (clocked smoke test)
+- **Challenge 124 (Very_Hard)** — `q124_design_a_programmable_pulse_sequence_generator_u`
+  - RTL: `rtl/Very_Hard/124_q124_design_a_programmable_pulse_sequence_generator_u.v`
+  - Testbench: `testbench/Very_Hard/124_tb_q124_design_a_programmable_pulse_sequence_generator_u.v` (clocked smoke test)
+- **Challenge 125 (Very_Hard)** — `q125_implement_a_multi_channel_timer_capture_controll`
+  - RTL: `rtl/Very_Hard/125_q125_implement_a_multi_channel_timer_capture_controll.v`
+  - Testbench: `testbench/Very_Hard/125_tb_q125_implement_a_multi_channel_timer_capture_controll.v` (clocked smoke test)
+- **Challenge 126 (Very_Hard)** — `q126_design_a_four_channel_pwm_generator_with_program`
+  - RTL: `rtl/Very_Hard/126_q126_design_a_four_channel_pwm_generator_with_program.v`
+  - Testbench: `testbench/Very_Hard/126_tb_q126_design_a_four_channel_pwm_generator_with_program.v` (clocked smoke test)
+- **Challenge 127 (Very_Hard)** — `q127_implement_a_dead_time_insertion_circuit_for_comp`
+  - RTL: `rtl/Very_Hard/127_q127_implement_a_dead_time_insertion_circuit_for_comp.v`
+  - Testbench: `testbench/Very_Hard/127_tb_q127_implement_a_dead_time_insertion_circuit_for_comp.v` (clocked smoke test)
+- **Challenge 128 (Very_Hard)** — `q128_design_a_quadrature_encoder_decoder_with_directi`
+  - RTL: `rtl/Very_Hard/128_q128_design_a_quadrature_encoder_decoder_with_directi.v`
+  - Testbench: `testbench/Very_Hard/128_tb_q128_design_a_quadrature_encoder_decoder_with_directi.v` (combinational smoke test)
+- **Challenge 129 (Very_Hard)** — `q129_implement_a_frequency_counter_using_a_reference`
+  - RTL: `rtl/Very_Hard/129_q129_implement_a_frequency_counter_using_a_reference.v`
+  - Testbench: `testbench/Very_Hard/129_tb_q129_implement_a_frequency_counter_using_a_reference.v` (clocked smoke test)
+- **Challenge 130 (Very_Hard)** — `q130_design_a_digital_phase_frequency_measurement_uni`
+  - RTL: `rtl/Very_Hard/130_q130_design_a_digital_phase_frequency_measurement_uni.v`
+  - Testbench: `testbench/Very_Hard/130_tb_q130_design_a_digital_phase_frequency_measurement_uni.v` (clocked smoke test)
+- **Challenge 131 (Very_Hard)** — `q131_implement_a_parameterized_multi_flop_synchronize`
+  - RTL: `rtl/Very_Hard/131_q131_implement_a_parameterized_multi_flop_synchronize.v`
+  - Testbench: `testbench/Very_Hard/131_tb_q131_implement_a_parameterized_multi_flop_synchronize.v` (clocked smoke test)
+- **Challenge 132 (Very_Hard)** — `q132_design_a_toggle_based_pulse_synchronizer_between`
+  - RTL: `rtl/Very_Hard/132_q132_design_a_toggle_based_pulse_synchronizer_between.v`
+  - Testbench: `testbench/Very_Hard/132_tb_q132_design_a_toggle_based_pulse_synchronizer_between.v` (clocked smoke test)
+- **Challenge 133 (Very_Hard)** — `q133_implement_a_request_acknowledge_cdc_handshake_fo`
+  - RTL: `rtl/Very_Hard/133_q133_implement_a_request_acknowledge_cdc_handshake_fo.v`
+  - Testbench: `testbench/Very_Hard/133_tb_q133_implement_a_request_acknowledge_cdc_handshake_fo.v` (clocked smoke test)
+- **Challenge 134 (Very_Hard)** — `q134_design_an_asynchronous_fifo_with_binary_pointers`
+  - RTL: `rtl/Very_Hard/134_q134_design_an_asynchronous_fifo_with_binary_pointers.v`
+  - Testbench: `testbench/Very_Hard/134_tb_q134_design_an_asynchronous_fifo_with_binary_pointers.v` (clocked smoke test)
+- **Challenge 135 (Very_Hard)** — `q135_implement_asynchronous_fifo_full_and_empty_detec`
+  - RTL: `rtl/Very_Hard/135_q135_implement_asynchronous_fifo_full_and_empty_detec.v`
+  - Testbench: `testbench/Very_Hard/135_tb_q135_implement_asynchronous_fifo_full_and_empty_detec.v` (clocked smoke test)
+- **Challenge 136 (Very_Hard)** — `q136_design_a_synchronous_fifo_with_simultaneous_push`
+  - RTL: `rtl/Very_Hard/136_q136_design_a_synchronous_fifo_with_simultaneous_push.v`
+  - Testbench: `testbench/Very_Hard/136_tb_q136_design_a_synchronous_fifo_with_simultaneous_push.v` (clocked smoke test)
+- **Challenge 137 (Very_Hard)** — `q137_implement_a_skid_buffer_for_a_ready_valid_stream`
+  - RTL: `rtl/Very_Hard/137_q137_implement_a_skid_buffer_for_a_ready_valid_stream.v`
+  - Testbench: `testbench/Very_Hard/137_tb_q137_implement_a_skid_buffer_for_a_ready_valid_stream.v` (clocked smoke test)
+- **Challenge 138 (Very_Hard)** — `q138_design_a_two_entry_elastic_buffer_with_backpress`
+  - RTL: `rtl/Very_Hard/138_q138_design_a_two_entry_elastic_buffer_with_backpress.v`
+  - Testbench: `testbench/Very_Hard/138_tb_q138_design_a_two_entry_elastic_buffer_with_backpress.v` (clocked smoke test)
+- **Challenge 139 (Very_Hard)** — `q139_implement_a_packet_fifo_with_start_of_packet_and`
+  - RTL: `rtl/Very_Hard/139_q139_implement_a_packet_fifo_with_start_of_packet_and.v`
+  - Testbench: `testbench/Very_Hard/139_tb_q139_implement_a_packet_fifo_with_start_of_packet_and.v` (clocked smoke test)
+- **Challenge 140 (Very_Hard)** — `q140_design_a_multi_source_input_multiplexer_with_rou`
+  - RTL: `rtl/Very_Hard/140_q140_design_a_multi_source_input_multiplexer_with_rou.v`
+  - Testbench: `testbench/Very_Hard/140_tb_q140_design_a_multi_source_input_multiplexer_with_rou.v` (clocked smoke test)
+- **Challenge 141 (Very_Hard)** — `q141_implement_a_pipelined_32_bit_adder_with_valid_pr`
+  - RTL: `rtl/Very_Hard/141_q141_implement_a_pipelined_32_bit_adder_with_valid_pr.v`
+  - Testbench: `testbench/Very_Hard/141_tb_q141_implement_a_pipelined_32_bit_adder_with_valid_pr.v` (combinational smoke test)
+- **Challenge 142 (Very_Hard)** — `q142_design_a_pipelined_16_bit_multiplier_with_config`
+  - RTL: `rtl/Very_Hard/142_q142_design_a_pipelined_16_bit_multiplier_with_config.v`
+  - Testbench: `testbench/Very_Hard/142_tb_q142_design_a_pipelined_16_bit_multiplier_with_config.v` (clocked smoke test)
+- **Challenge 143 (Very_Hard)** — `q143_implement_a_streaming_checksum_accumulator_with`
+  - RTL: `rtl/Very_Hard/143_q143_implement_a_streaming_checksum_accumulator_with.v`
+  - Testbench: `testbench/Very_Hard/143_tb_q143_implement_a_streaming_checksum_accumulator_with.v` (clocked smoke test)
+- **Challenge 144 (Very_Hard)** — `q144_design_a_crc_16_serial_calculator_with_a_selecta`
+  - RTL: `rtl/Very_Hard/144_q144_design_a_crc_16_serial_calculator_with_a_selecta.v`
+  - Testbench: `testbench/Very_Hard/144_tb_q144_design_a_crc_16_serial_calculator_with_a_selecta.v` (clocked smoke test)
+- **Challenge 145 (Very_Hard)** — `q145_implement_a_crc_32_parallel_update_unit_for_a_32`
+  - RTL: `rtl/Very_Hard/145_q145_implement_a_crc_32_parallel_update_unit_for_a_32.v`
+  - Testbench: `testbench/Very_Hard/145_tb_q145_implement_a_crc_32_parallel_update_unit_for_a_32.v` (clocked smoke test)
+- **Challenge 146 (Very_Hard)** — `q146_design_a_linear_feedback_shift_register_with_a_c`
+  - RTL: `rtl/Very_Hard/146_q146_design_a_linear_feedback_shift_register_with_a_c.v`
+  - Testbench: `testbench/Very_Hard/146_tb_q146_design_a_linear_feedback_shift_register_with_a_c.v` (clocked smoke test)
+- **Challenge 147 (Very_Hard)** — `q147_implement_a_pseudo_random_sequence_generator_wit`
+  - RTL: `rtl/Very_Hard/147_q147_implement_a_pseudo_random_sequence_generator_wit.v`
+  - Testbench: `testbench/Very_Hard/147_tb_q147_implement_a_pseudo_random_sequence_generator_wit.v` (clocked smoke test)
+- **Challenge 148 (Very_Hard)** — `q148_design_a_programmable_pattern_matcher_for_a_fixe`
+  - RTL: `rtl/Very_Hard/148_q148_design_a_programmable_pattern_matcher_for_a_fixe.v`
+  - Testbench: `testbench/Very_Hard/148_tb_q148_design_a_programmable_pattern_matcher_for_a_fixe.v` (clocked smoke test)
+- **Challenge 149 (Very_Hard)** — `q149_implement_a_fault_tolerant_state_machine_with_il`
+  - RTL: `rtl/Very_Hard/149_q149_implement_a_fault_tolerant_state_machine_with_il.v`
+  - Testbench: `testbench/Very_Hard/149_tb_q149_implement_a_fault_tolerant_state_machine_with_il.v` (clocked smoke test)
+- **Challenge 150 (Very_Hard)** — `q150_design_a_transaction_counter_that_detects_overfl`
+  - RTL: `rtl/Very_Hard/150_q150_design_a_transaction_counter_that_detects_overfl.v`
+  - Testbench: `testbench/Very_Hard/150_tb_q150_design_a_transaction_counter_that_detects_overfl.v` (clocked smoke test)
+- **Challenge 151 (Advanced)** — `q151_design_a_parameterized_32_bit_brent_kung_paralle`
+  - RTL: `rtl/Advanced/151_q151_design_a_parameterized_32_bit_brent_kung_paralle.v`
+  - Testbench: `testbench/Advanced/151_tb_q151_design_a_parameterized_32_bit_brent_kung_paralle.v` (combinational smoke test)
+- **Challenge 152 (Advanced)** — `q152_implement_a_parameterized_kogge_stone_carry_netw`
+  - RTL: `rtl/Advanced/152_q152_implement_a_parameterized_kogge_stone_carry_netw.v`
+  - Testbench: `testbench/Advanced/152_tb_q152_implement_a_parameterized_kogge_stone_carry_netw.v` (combinational smoke test)
+- **Challenge 153 (Advanced)** — `q153_design_a_pipelined_carry_lookahead_adder_with_co`
+  - RTL: `rtl/Advanced/153_q153_design_a_pipelined_carry_lookahead_adder_with_co.v`
+  - Testbench: `testbench/Advanced/153_tb_q153_design_a_pipelined_carry_lookahead_adder_with_co.v` (combinational smoke test)
+- **Challenge 154 (Advanced)** — `q154_implement_a_signed_radix_4_booth_multiplier_for`
+  - RTL: `rtl/Advanced/154_q154_implement_a_signed_radix_4_booth_multiplier_for.v`
+  - Testbench: `testbench/Advanced/154_tb_q154_implement_a_signed_radix_4_booth_multiplier_for.v` (clocked smoke test)
+- **Challenge 155 (Advanced)** — `q155_design_a_pipelined_32_bit_multiplier_with_valid`
+  - RTL: `rtl/Advanced/155_q155_design_a_pipelined_32_bit_multiplier_with_valid.v`
+  - Testbench: `testbench/Advanced/155_tb_q155_design_a_pipelined_32_bit_multiplier_with_valid.v` (clocked smoke test)
+- **Challenge 156 (Advanced)** — `q156_implement_a_multiply_accumulate_pipeline_with_st`
+  - RTL: `rtl/Advanced/156_q156_implement_a_multiply_accumulate_pipeline_with_st.v`
+  - Testbench: `testbench/Advanced/156_tb_q156_implement_a_multiply_accumulate_pipeline_with_st.v` (clocked smoke test)
+- **Challenge 157 (Advanced)** — `q157_design_a_restoring_divider_with_a_configurable_o`
+  - RTL: `rtl/Advanced/157_q157_design_a_restoring_divider_with_a_configurable_o.v`
+  - Testbench: `testbench/Advanced/157_tb_q157_design_a_restoring_divider_with_a_configurable_o.v` (clocked smoke test)
+- **Challenge 158 (Advanced)** — `q158_implement_a_pipelined_leading_zero_detector_and`
+  - RTL: `rtl/Advanced/158_q158_implement_a_pipelined_leading_zero_detector_and.v`
+  - Testbench: `testbench/Advanced/158_tb_q158_implement_a_pipelined_leading_zero_detector_and.v` (clocked smoke test)
+- **Challenge 159 (Advanced)** — `q159_design_a_fixed_point_arithmetic_unit_with_select`
+  - RTL: `rtl/Advanced/159_q159_design_a_fixed_point_arithmetic_unit_with_select.v`
+  - Testbench: `testbench/Advanced/159_tb_q159_design_a_fixed_point_arithmetic_unit_with_select.v` (clocked smoke test)
+- **Challenge 160 (Advanced)** — `q160_implement_a_32_bit_alu_with_a_clean_operation_de`
+  - RTL: `rtl/Advanced/160_q160_implement_a_32_bit_alu_with_a_clean_operation_de.v`
+  - Testbench: `testbench/Advanced/160_tb_q160_implement_a_32_bit_alu_with_a_clean_operation_de.v` (combinational smoke test)
+- **Challenge 161 (Advanced)** — `q161_design_a_64_bit_add_subtract_unit_with_carry_and`
+  - RTL: `rtl/Advanced/161_q161_design_a_64_bit_add_subtract_unit_with_carry_and.v`
+  - Testbench: `testbench/Advanced/161_tb_q161_design_a_64_bit_add_subtract_unit_with_carry_and.v` (combinational smoke test)
+- **Challenge 162 (Advanced)** — `q162_implement_a_parameterized_comparator_tree_optimi`
+  - RTL: `rtl/Advanced/162_q162_implement_a_parameterized_comparator_tree_optimi.v`
+  - Testbench: `testbench/Advanced/162_tb_q162_implement_a_parameterized_comparator_tree_optimi.v` (clocked smoke test)
+- **Challenge 163 (Advanced)** — `q163_design_a_population_count_tree_for_a_64_bit_inpu`
+  - RTL: `rtl/Advanced/163_q163_design_a_population_count_tree_for_a_64_bit_inpu.v`
+  - Testbench: `testbench/Advanced/163_tb_q163_design_a_population_count_tree_for_a_64_bit_inpu.v` (combinational smoke test)
+- **Challenge 164 (Advanced)** — `q164_implement_a_32_bit_bit_reversal_and_byte_swap_un`
+  - RTL: `rtl/Advanced/164_q164_implement_a_32_bit_bit_reversal_and_byte_swap_un.v`
+  - Testbench: `testbench/Advanced/164_tb_q164_implement_a_32_bit_bit_reversal_and_byte_swap_un.v` (combinational smoke test)
+- **Challenge 165 (Advanced)** — `q165_design_a_configurable_bit_field_extraction_and_i`
+  - RTL: `rtl/Advanced/165_q165_design_a_configurable_bit_field_extraction_and_i.v`
+  - Testbench: `testbench/Advanced/165_tb_q165_design_a_configurable_bit_field_extraction_and_i.v` (clocked smoke test)
+- **Challenge 166 (Advanced)** — `q166_implement_a_five_stage_valid_ready_pipeline_with`
+  - RTL: `rtl/Advanced/166_q166_implement_a_five_stage_valid_ready_pipeline_with.v`
+  - Testbench: `testbench/Advanced/166_tb_q166_implement_a_five_stage_valid_ready_pipeline_with.v` (clocked smoke test)
+- **Challenge 167 (Advanced)** — `q167_design_a_pipeline_register_with_simultaneous_sta`
+  - RTL: `rtl/Advanced/167_q167_design_a_pipeline_register_with_simultaneous_sta.v`
+  - Testbench: `testbench/Advanced/167_tb_q167_design_a_pipeline_register_with_simultaneous_sta.v` (clocked smoke test)
+- **Challenge 168 (Advanced)** — `q168_implement_a_skid_buffered_streaming_pipeline_tha`
+  - RTL: `rtl/Advanced/168_q168_implement_a_skid_buffered_streaming_pipeline_tha.v`
+  - Testbench: `testbench/Advanced/168_tb_q168_implement_a_skid_buffered_streaming_pipeline_tha.v` (clocked smoke test)
+- **Challenge 169 (Advanced)** — `q169_design_a_two_input_streaming_merge_unit_with_arb`
+  - RTL: `rtl/Advanced/169_q169_design_a_two_input_streaming_merge_unit_with_arb.v`
+  - Testbench: `testbench/Advanced/169_tb_q169_design_a_two_input_streaming_merge_unit_with_arb.v` (clocked smoke test)
+- **Challenge 170 (Advanced)** — `q170_implement_a_streaming_fork_that_sends_each_input`
+  - RTL: `rtl/Advanced/170_q170_implement_a_streaming_fork_that_sends_each_input.v`
+  - Testbench: `testbench/Advanced/170_tb_q170_implement_a_streaming_fork_that_sends_each_input.v` (clocked smoke test)
+- **Challenge 171 (Advanced)** — `q171_design_a_streaming_join_that_combines_correspond`
+  - RTL: `rtl/Advanced/171_q171_design_a_streaming_join_that_combines_correspond.v`
+  - Testbench: `testbench/Advanced/171_tb_q171_design_a_streaming_join_that_combines_correspond.v` (clocked smoke test)
+- **Challenge 172 (Advanced)** — `q172_implement_a_burst_counter_and_address_generator`
+  - RTL: `rtl/Advanced/172_q172_implement_a_burst_counter_and_address_generator.v`
+  - Testbench: `testbench/Advanced/172_tb_q172_implement_a_burst_counter_and_address_generator.v` (clocked smoke test)
+- **Challenge 173 (Advanced)** — `q173_design_a_burst_write_controller_with_byte_enable`
+  - RTL: `rtl/Advanced/173_q173_design_a_burst_write_controller_with_byte_enable.v`
+  - Testbench: `testbench/Advanced/173_tb_q173_design_a_burst_write_controller_with_byte_enable.v` (clocked smoke test)
+- **Challenge 174 (Advanced)** — `q174_implement_a_parameterized_axi_style_ready_valid`
+  - RTL: `rtl/Advanced/174_q174_implement_a_parameterized_axi_style_ready_valid.v`
+  - Testbench: `testbench/Advanced/174_tb_q174_implement_a_parameterized_axi_style_ready_valid.v` (clocked smoke test)
+- **Challenge 175 (Advanced)** — `q175_design_a_simplified_memory_mapped_bus_master_wit`
+  - RTL: `rtl/Advanced/175_q175_design_a_simplified_memory_mapped_bus_master_wit.v`
+  - Testbench: `testbench/Advanced/175_tb_q175_design_a_simplified_memory_mapped_bus_master_wit.v` (clocked smoke test)
+- **Challenge 176 (Advanced)** — `q176_implement_a_round_robin_arbiter_for_eight_reques`
+  - RTL: `rtl/Advanced/176_q176_implement_a_round_robin_arbiter_for_eight_reques.v`
+  - Testbench: `testbench/Advanced/176_tb_q176_implement_a_round_robin_arbiter_for_eight_reques.v` (clocked smoke test)
+- **Challenge 177 (Advanced)** — `q177_design_a_weighted_round_robin_arbiter_with_confi`
+  - RTL: `rtl/Advanced/177_q177_design_a_weighted_round_robin_arbiter_with_confi.v`
+  - Testbench: `testbench/Advanced/177_tb_q177_design_a_weighted_round_robin_arbiter_with_confi.v` (clocked smoke test)
+- **Challenge 178 (Advanced)** — `q178_implement_a_two_level_hierarchical_arbiter_for_s`
+  - RTL: `rtl/Advanced/178_q178_implement_a_two_level_hierarchical_arbiter_for_s.v`
+  - Testbench: `testbench/Advanced/178_tb_q178_implement_a_two_level_hierarchical_arbiter_for_s.v` (clocked smoke test)
+- **Challenge 179 (Advanced)** — `q179_design_a_reservation_based_resource_allocator_th`
+  - RTL: `rtl/Advanced/179_q179_design_a_reservation_based_resource_allocator_th.v`
+  - Testbench: `testbench/Advanced/179_tb_q179_design_a_reservation_based_resource_allocator_th.v` (clocked smoke test)
+- **Challenge 180 (Advanced)** — `q180_implement_a_scoreboard_that_tracks_outstanding_t`
+  - RTL: `rtl/Advanced/180_q180_implement_a_scoreboard_that_tracks_outstanding_t.v`
+  - Testbench: `testbench/Advanced/180_tb_q180_implement_a_scoreboard_that_tracks_outstanding_t.v` (clocked smoke test)
+- **Challenge 181 (Advanced)** — `q181_design_a_reset_synchronizer_that_asynchronously`
+  - RTL: `rtl/Advanced/181_q181_design_a_reset_synchronizer_that_asynchronously.v`
+  - Testbench: `testbench/Advanced/181_tb_q181_design_a_reset_synchronizer_that_asynchronously.v` (clocked smoke test)
+- **Challenge 182 (Advanced)** — `q182_implement_a_configurable_glitch_filter_for_a_noi`
+  - RTL: `rtl/Advanced/182_q182_implement_a_configurable_glitch_filter_for_a_noi.v`
+  - Testbench: `testbench/Advanced/182_tb_q182_implement_a_configurable_glitch_filter_for_a_noi.v` (clocked smoke test)
+- **Challenge 183 (Advanced)** — `q183_design_a_pulse_capture_circuit_that_holds_an_eve`
+  - RTL: `rtl/Advanced/183_q183_design_a_pulse_capture_circuit_that_holds_an_eve.v`
+  - Testbench: `testbench/Advanced/183_tb_q183_design_a_pulse_capture_circuit_that_holds_an_eve.v` (clocked smoke test)
+- **Challenge 184 (Advanced)** — `q184_implement_a_timeout_detector_for_a_ready_valid_t`
+  - RTL: `rtl/Advanced/184_q184_implement_a_timeout_detector_for_a_ready_valid_t.v`
+  - Testbench: `testbench/Advanced/184_tb_q184_implement_a_timeout_detector_for_a_ready_valid_t.v` (clocked smoke test)
+- **Challenge 185 (Advanced)** — `q185_design_a_watchdog_with_windowed_service_checking`
+  - RTL: `rtl/Advanced/185_q185_design_a_watchdog_with_windowed_service_checking.v`
+  - Testbench: `testbench/Advanced/185_tb_q185_design_a_watchdog_with_windowed_service_checking.v` (clocked smoke test)
+- **Challenge 186 (Advanced)** — `q186_implement_a_fault_injection_mux_that_can_invert`
+  - RTL: `rtl/Advanced/186_q186_implement_a_fault_injection_mux_that_can_invert.v`
+  - Testbench: `testbench/Advanced/186_tb_q186_implement_a_fault_injection_mux_that_can_invert.v` (clocked smoke test)
+- **Challenge 187 (Advanced)** — `q187_design_a_parity_protected_register_bank_with_err`
+  - RTL: `rtl/Advanced/187_q187_design_a_parity_protected_register_bank_with_err.v`
+  - Testbench: `testbench/Advanced/187_tb_q187_design_a_parity_protected_register_bank_with_err.v` (clocked smoke test)
+- **Challenge 188 (Advanced)** — `q188_implement_a_single_bit_error_correcting_hamming`
+  - RTL: `rtl/Advanced/188_q188_implement_a_single_bit_error_correcting_hamming.v`
+  - Testbench: `testbench/Advanced/188_tb_q188_implement_a_single_bit_error_correcting_hamming.v` (combinational smoke test)
+- **Challenge 189 (Advanced)** — `q189_design_a_dual_copy_register_with_mismatch_detect`
+  - RTL: `rtl/Advanced/189_q189_design_a_dual_copy_register_with_mismatch_detect.v`
+  - Testbench: `testbench/Advanced/189_tb_q189_design_a_dual_copy_register_with_mismatch_detect.v` (clocked smoke test)
+- **Challenge 190 (Advanced)** — `q190_implement_a_control_fsm_with_safe_state_recovery`
+  - RTL: `rtl/Advanced/190_q190_implement_a_control_fsm_with_safe_state_recovery.v`
+  - Testbench: `testbench/Advanced/190_tb_q190_implement_a_control_fsm_with_safe_state_recovery.v` (clocked smoke test)
+- **Challenge 191 (Advanced)** — `q191_design_a_parameterized_multi_channel_timer_bank`
+  - RTL: `rtl/Advanced/191_q191_design_a_parameterized_multi_channel_timer_bank.v`
+  - Testbench: `testbench/Advanced/191_tb_q191_design_a_parameterized_multi_channel_timer_bank.v` (clocked smoke test)
+- **Challenge 192 (Advanced)** — `q192_implement_an_interrupt_controller_with_programma`
+  - RTL: `rtl/Advanced/192_q192_implement_an_interrupt_controller_with_programma.v`
+  - Testbench: `testbench/Advanced/192_tb_q192_implement_an_interrupt_controller_with_programma.v` (clocked smoke test)
+- **Challenge 193 (Advanced)** — `q193_design_a_programmable_event_counter_bank_with_pe`
+  - RTL: `rtl/Advanced/193_q193_design_a_programmable_event_counter_bank_with_pe.v`
+  - Testbench: `testbench/Advanced/193_tb_q193_design_a_programmable_event_counter_bank_with_pe.v` (clocked smoke test)
+- **Challenge 194 (Advanced)** — `q194_implement_a_register_mapped_peripheral_block_wit`
+  - RTL: `rtl/Advanced/194_q194_implement_a_register_mapped_peripheral_block_wit.v`
+  - Testbench: `testbench/Advanced/194_tb_q194_implement_a_register_mapped_peripheral_block_wit.v` (clocked smoke test)
+- **Challenge 195 (Advanced)** — `q195_design_a_dma_style_transfer_controller_with_sour`
+  - RTL: `rtl/Advanced/195_q195_design_a_dma_style_transfer_controller_with_sour.v`
+  - Testbench: `testbench/Advanced/195_tb_q195_design_a_dma_style_transfer_controller_with_sour.v` (clocked smoke test)
+- **Challenge 196 (Advanced)** — `q196_implement_a_packet_scheduler_that_selects_among`
+  - RTL: `rtl/Advanced/196_q196_implement_a_packet_scheduler_that_selects_among.v`
+  - Testbench: `testbench/Advanced/196_tb_q196_implement_a_packet_scheduler_that_selects_among.v` (clocked smoke test)
+- **Challenge 197 (Advanced)** — `q197_design_a_packet_length_validator_that_rejects_ma`
+  - RTL: `rtl/Advanced/197_q197_design_a_packet_length_validator_that_rejects_ma.v`
+  - Testbench: `testbench/Advanced/197_tb_q197_design_a_packet_length_validator_that_rejects_ma.v` (clocked smoke test)
+- **Challenge 198 (Advanced)** — `q198_implement_a_multi_cycle_execution_unit_controlle`
+  - RTL: `rtl/Advanced/198_q198_implement_a_multi_cycle_execution_unit_controlle.v`
+  - Testbench: `testbench/Advanced/198_tb_q198_implement_a_multi_cycle_execution_unit_controlle.v` (clocked smoke test)
+- **Challenge 199 (Advanced)** — `q199_design_a_reusable_parameterized_register_file_wi`
+  - RTL: `rtl/Advanced/199_q199_design_a_reusable_parameterized_register_file_wi.v`
+  - Testbench: `testbench/Advanced/199_tb_q199_design_a_reusable_parameterized_register_file_wi.v` (clocked smoke test)
+- **Challenge 200 (Advanced)** — `q200_implement_an_integrated_digital_subsystem_contai`
+  - RTL: `rtl/Advanced/200_q200_implement_an_integrated_digital_subsystem_contai.v`
+  - Testbench: `testbench/Advanced/200_tb_q200_implement_an_integrated_digital_subsystem_contai.v` (combinational smoke test)
